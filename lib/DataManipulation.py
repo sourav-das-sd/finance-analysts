@@ -11,3 +11,5 @@ def count_orders_state(joined_df):
 
 def filter_orders_generic(orders_df, status):
     return orders_df.filter("order_status  = '{}'".format(status))
+
+##feature-rp-50002
